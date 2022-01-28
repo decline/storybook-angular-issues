@@ -3,8 +3,8 @@ import { Component, EventEmitter, Output } from '@angular/core';
 @Component({
     selector: 'storybook-event-emitter',
     template: `
-        <h1>6.4.0-alpha.34</h1>
-        <p class="error">Clicking this button will throw an error in the console ("TypeError: ctx.onClick is not a function")</p>
+        <h1>6.4.0-alpha.33</h1>
+        <p class="ok">Clicking this button will correctly show event in "Actions" tab</p>
 
         <button
                 type="button"

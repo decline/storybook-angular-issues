@@ -7,8 +7,8 @@ enum Enum {
 @Component({
     selector: 'storybook-enum',
     template: `
-        <h1>6.4.0-alpha.34</h1>
-        <p class="error">Value of enum is not shown</p>
+        <h1>6.4.0-alpha.33</h1>
+        <p class="ok">Value of enum is shown correctly</p>
         <p>Value: {{ Enum.SomeValue }}</p>
     `
 })
